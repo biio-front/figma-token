@@ -3,10 +3,13 @@
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "build/scss/",
+      "buildPath": "styles/variables/",
       "files": [{
         "destination": "_variables.scss",
-        "format": "scss/variables"
+        "format": "scss/variables",
+        "options": {
+          "outputReferences": true
+        }
       }]
     }
   }
